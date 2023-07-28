@@ -1,0 +1,25 @@
+.container {
+  margin: 0 auto 0;
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+  justify-content: flex-start;
+  max-width: 300px;
+}
+
+mat-card {
+  background-color: rgb(255, 255, 255);
+  color: black;
+}
+
+img {
+  width: 100%;
+  height: auto;
+}
+
+.button {
+  margin-right: 5px;
+  &:last-child {
+    margin-right: 0;
+  }
+}
