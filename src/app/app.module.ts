@@ -18,6 +18,8 @@ import {MatIconModule} from '@angular/material/icon';
 import {MatButtonModule} from "@angular/material/button";
 import {MatCardModule} from '@angular/material/card';
 import {NgOptimizedImage} from "@angular/common";
+import {MatDialogModule} from '@angular/material/dialog';
+import {MatInputModule} from '@angular/material/input';
 
 @NgModule({
   declarations: [
@@ -39,7 +41,9 @@ import {NgOptimizedImage} from "@angular/common";
     MatButtonModule,
     MatCardModule,
     NgOptimizedImage,
-    HttpClientModule
+    HttpClientModule,
+    MatDialogModule,
+    MatInputModule
   ],
   providers: [],
   bootstrap: [AppComponent]

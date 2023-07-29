@@ -1,7 +1,7 @@
 <mat-toolbar color="primary" *ngIf="canEdit">
   <mat-toolbar-row>
     <span class="example-spacer"></span>
-    <button class="button" mat-flat-button color="basic">Add new item</button>
+    <button class="button" mat-flat-button color="basic" (click)="openDialog()">Add new item</button>
   </mat-toolbar-row>
 </mat-toolbar>
 
